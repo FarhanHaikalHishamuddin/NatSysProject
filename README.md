@@ -368,6 +368,10 @@ docker run --detach -it debian
 CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS         PORTS     NAMES
 f65be1987f84   debian    "bash"    4 minutes ago   Up 4 minutes             romantic_jackson
 ```
+```
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS          PORTS     NAMES
+4869e3f20f18   debian    "bash"    23 seconds ago   Up 21 seconds             determined_hodgkin
+```
 
 3. Keep note of the name used by your container, this is usually given random names unless you specify your own name. Now run a bash command on the container. Make sure you use the name of your container instead of the one shown here. 
 ```bash
@@ -398,6 +402,15 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 @joeynor ➜ /workspaces/OSProject (main) $ docker restart romantic_jackson
 ```
+```
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                                PORTS     NAMES
+4869e3f20f18   debian    "bash"    16 minutes ago   Exited (137) Less than a second ago             determined_hodgkin
+```
+
+```
+root@7dcd66455461:~# ls 
+helloworld.txt
+```
 
 7. Stop the container and delete the container. What happened to your helloworld.txt?
 
@@ -413,8 +426,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__. No, because when the container is deleted, the data inside also will be dissapeared.
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__. Yes
 
 ## Running your own container with persistent storage
 
@@ -434,13 +447,22 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 ***Questions:***
 
 1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+```
+drwxr-xr-x+ 3 root root 4096 Jun 18 18:08 workspace
+```
+Both owner and group are set to root. The owner root has read, write and execute permission. The group root has read and execute permission. Others have read and execute permission. There are additional  ACLs allow me to grant permissions to users and groups.
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
-
 ```
-*** __Fill answer here__.***
+```
+@sarnsrun ➜ /workspaces/NatSysProject/myroot (main) $ ls -l
+total 4
+drwxr-xr-x+ 3 codespace codespace 4096 Jun 18 18:08 workspace
+```
+
 
 ## You are on your own, create your own static webpage
 
