@@ -362,6 +362,18 @@ Hardware architecture:" x86_64"__.
 docker pull debian
 docker run --detach -it debian
 ```
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker pull debian
+Using default tag: latest
+latest: Pulling from library/debian
+Digest: sha256:a92ed51e0996d8e9de041ca05ce623d2c491444df6a535a566dabd5cb8336946
+Status: Image is up to date for debian:latest
+docker.io/library/debian:latest
+```
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker run --detach -it debian
+3e2599a2d083ef39eb9919ae3b8b4262ba7c1a54600dbb664b7058315f78e79c
+```
 2. This will run the debian container. To check if the debian container is running, type
 ```bash
 @joeynor ➜ /workspaces/OSProject (main) $ docker ps -a
@@ -369,13 +381,18 @@ CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS         PORTS     NAME
 f65be1987f84   debian    "bash"    4 minutes ago   Up 4 minutes             romantic_jackson
 ```
 ```
-CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS          PORTS     NAMES
-4869e3f20f18   debian    "bash"    23 seconds ago   Up 21 seconds             determined_hodgkin
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS         PORTS     NAMES
+424a7d294679   debian    "bash"    10 seconds ago   Up 9 seconds             practical_fermi
 ```
 
 3. Keep note of the name used by your container, this is usually given random names unless you specify your own name. Now run a bash command on the container. Make sure you use the name of your container instead of the one shown here. 
 ```bash
 docker exec -i -t romantic_jackson /bin/bash
+```
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec -i -t practical_fermi /bin/bash
+root@424a7d294679:/# 
 ```
 
 4. Create a file on the container. First you must make sure you are in the bash command prompt of the container. The container is new, and does not have any software other than the debian OS. To create a new file, you will need an editor installed. In the bash shell of the container, run the package manager apt-get to install nano text editor. 
@@ -389,8 +406,63 @@ root@f65be1987f84:~# cd /root
 
 root@f65be1987f84:~# nano helloworld.txt
 ```
+```
+root@424a7d294679:/# apt-get update
+Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Get:3 http://deb.debian.org/debian-security bookworm-security InRelease [48.0 kB]
+Get:4 http://deb.debian.org/debian bookworm/main amd64 Packages [8786 kB]
+Get:5 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [13.8 kB]
+Get:6 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [160 kB]
+Fetched 9214 kB in 1s (8816 kB/s)
+Reading package lists... Done
+root@424a7d294679:/# apt-get install nano
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  libgpm2 libncursesw6
+Suggested packages:
+  gpm hunspell
+The following NEW packages will be installed:
+  libgpm2 libncursesw6 nano
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 837 kB of archives.
+After this operation, 3339 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://deb.debian.org/debian bookworm/main amd64 libncursesw6 amd64 6.4-4 [134 kB]
+Get:2 http://deb.debian.org/debian bookworm/main amd64 nano amd64 7.2-1 [689 kB]
+Get:3 http://deb.debian.org/debian bookworm/main amd64 libgpm2 amd64 1.20.7-10+b1 [14.2 kB]
+Fetched 837 kB in 1s (1656 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package libncursesw6:amd64.
+(Reading database ... 6090 files and directories currently installed.)
+Preparing to unpack .../libncursesw6_6.4-4_amd64.deb ...
+Unpacking libncursesw6:amd64 (6.4-4) ...
+Selecting previously unselected package nano.
+Preparing to unpack .../archives/nano_7.2-1_amd64.deb ...
+Unpacking nano (7.2-1) ...
+Selecting previously unselected package libgpm2:amd64.
+Preparing to unpack .../libgpm2_1.20.7-10+b1_amd64.deb ...
+Unpacking libgpm2:amd64 (1.20.7-10+b1) ...
+Setting up libgpm2:amd64 (1.20.7-10+b1) ...
+Setting up libncursesw6:amd64 (6.4-4) ...
+Setting up nano (7.2-1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+Processing triggers for libc-bin (2.36-9+deb12u7) ...
+root@424a7d294679:/# cd /root
+root@424a7d294679:~# nano helloworld.txt
+```
 
 5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
+```
+root@424a7d294679:~# ls
+helloworld.txt
+root@424a7d294679:~# exit
+exit
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ 
+```
 
 6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
 ```bash 
@@ -403,13 +475,17 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 @joeynor ➜ /workspaces/OSProject (main) $ docker restart romantic_jackson
 ```
 ```
-CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                                PORTS     NAMES
-4869e3f20f18   debian    "bash"    16 minutes ago   Exited (137) Less than a second ago             determined_hodgkin
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker stop practical_fermi
+practical_fermi
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS                        PORTS     NAMES
+424a7d294679   debian    "bash"    5 minutes ago   Exited (137) 10 seconds ago             practical_fermi
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker restart practical_fermi
+practical_fermi
 ```
-
 ```
-root@7dcd66455461:~# ls 
-helloworld.txt
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec practical_fermi find / -name "helloworld.txt"
+/root/helloworld.txt
 ```
 
 7. Stop the container and delete the container. What happened to your helloworld.txt?
@@ -423,7 +499,19 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 @joeynor ➜ /workspaces/OSProject (main) $ docker rm romantic_jackson
 ```
-
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker  stop practical_fermi
+practical_fermi
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                       PORTS     NAMES
+424a7d294679   debian    "bash"    11 minutes ago   Exited (137) 7 seconds ago             practical_fermi
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker rm practical_fermi
+practical_fermi
+```
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec practical_fermi find / -name "helloworld.txt"
+Error response from daemon: No such container: practical_fermi
+```
 ***Questions:***
 
 1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__. No, because when the container is deleted, the data inside also will be dissapeared.
@@ -443,6 +531,13 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 @joeynor ➜ /workspaces/OSProject/myroot (main) $ docker run --detach -it -v /workspaces/OSProject/myroot:/root debian
 ```
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ cd myroot/
+@sarnsrun ➜ /workspaces/NatSysProject/myroot (main) $ pwd
+/workspaces/NatSysProject/myroot
+@sarnsrun ➜ /workspaces/NatSysProject/myroot (main) $ docker run --detach -it -v /workspaces/NatSysProject/myroot:/root debian
+c44ee6ff6e0282b034b27d6822e725eb975cc83f969d5ba6192f21085389d95a
+```
 
 ***Questions:***
 
@@ -458,6 +553,7 @@ Both owner and group are set to root. The owner root has read, write and execute
 sudo chown -R codespace:codespace myroot
 ```
 ```
+@sarnsrun ➜ /workspaces/NatSysProject/myroot (main) $ sudo chown -R codespace:codespace .
 @sarnsrun ➜ /workspaces/NatSysProject/myroot (main) $ ls -l
 total 4
 drwxr-xr-x+ 3 codespace codespace 4096 Jun 18 18:08 workspace
