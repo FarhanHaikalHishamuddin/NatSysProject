@@ -585,8 +585,19 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec -it priceless_aryabhata /bin/bash
+root@86fde954b93b:/usr/local/apache2# cd /usr/local/apache2/htdocs/
+root@86fde954b93b:/usr/local/apache2/htdocs# ls -l
+total 4
+-rw-rw-rw- 1 1000 1000 7 Jun 18 20:31 index.html
+```
+Both user and group has read and write but no execute permission for this regular file. The User ID that owns the folder is 1000 and Group ID that owns the folder is 1000.
+
 2. What port is the apache web server running. ***(1 mark)***
+**80**
 3. What port is open for http protocol on the host machine? ***(1 mark)***
+**8080**
 
 ## Create SUB Networks
 
