@@ -563,14 +563,23 @@ drwxr-xr-x+ 3 codespace codespace 4096 Jun 18 18:08 workspace
 ## You are on your own, create your own static webpage
 
 1. Create a directory called webpage in your host machine
+```
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ mkdir webpage
+```
 2. Inside the directory, create a page index.html, with any content you would like
+```
+@sarnsrun ➜ /workspaces/NatSysProject/webpage (main) $ echo > index.html
+```
 3. Then, run the apache webserver and mount the webpage directory to it. Hint:
 ```bash
 ## the -p 8080:80 flag points the host port 8080 to the container port 80
 
 docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ -p 8080:80 httpd
 ```
-
+```
+@sarnsrun ➜ /workspaces/NatSysProject/webpage (main) $ docker run --detach -v /workspaces/NatSysProject/webpage:/usr/local/apache2/htdocs/ -p 8080:80 httpd
+fc6090cf5ec86c6ad38a23ff0fc7f40364507bbd8794e62a6bfce29422b51822
+```
 4. If it works, codespace will trigger a port assignment and provide a URL for you to access your webpage like the one below.
 
  <img src="./images/websitelink.png" width="70%">
