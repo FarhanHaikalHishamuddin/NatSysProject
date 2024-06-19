@@ -643,25 +643,7 @@ Status: Downloaded newer image for busybox:latest
 d2e7d3b8287be83e8b11fe67e1270ab2927bfb68106a137ed538d9d0b9bfc6e5
 ```
 ***Questions:***
-
-<<<<<<< HEAD
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __BusyBox is a software suite that combines many common Unix/Linux utilities into a single small executable, often used in environments with limited resources. The --name command switch in Docker assigns a specific name to a container, making it easier to manage and reference.__.
-2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
-   ![INSPECT](https://github.com/FarhanHaikalHishamuddin/NatSysProject/assets/134907351/2807f429-054f-4f05-845f-1cb8580484f1)
-
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
-Gateway of bluenet: 172.18.0.1
-Gateway of rednet: Not applicable
-
-4. What is the network address for the running container c1 and c2.
-IP address of c1 on bluenet: 172.18.0.2
-IP address of c2 on rednet: Not applicable
-
-5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
-@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker exec c1 ping c2
-ping: bad address 'c2'
-=======
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __busybox is a software that provides a fairly complete environment for any small or embedded system. Command **--name** is to specify the name for the object which is the network being created__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Busybox is a software that provides a fairly complete environment for any small or embedded system. Command **--name** is to specify the name for the object which is the network being created__.
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
 ```bash
 @xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network ls
@@ -1072,7 +1054,7 @@ f23b9870935e   rednet    bridge    local
 ]
 ```
 __bluenet: 172.18.0.1__
->>>>>>> a143507 (Finalise)
+
 
 __rednet: 172.19.0.1__
 
@@ -1095,15 +1077,6 @@ docker network connect bridgenet c1
 docker network connect bridgenet c2
 docker exec c1 ping c2
 ```
-<<<<<<< HEAD
-@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network create bridgenet
-6b486fd9f6ccb09cd44a4edfd41d5ab71b9eec486079942c7c985308759d4708
-@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network connect bridgenet c1
-@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network connect bridgenet c2
-@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker exec c1 ping c2
-ping: bad address 'c2'
-
-=======
 ```bash
 @xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network create bridgenet
 95807d64de4a2ac470643206c959a16eb8f218923a4435e341617b13d7ca40e7
@@ -1133,7 +1106,7 @@ PING c2 (172.20.0.3): 56 data bytes
 ^C
 @xharisirfan ➜ /workspaces/NatSysProject (main) $ 
 ```
->>>>>>> a143507 (Finalise)
+
 ## What to submit
 
 1. Make sure to commit all changes on your source control, and make sure your source control is sync to the repository. 
