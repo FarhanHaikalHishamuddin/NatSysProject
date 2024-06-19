@@ -584,22 +584,25 @@ fc6090cf5ec86c6ad38a23ff0fc7f40364507bbd8794e62a6bfce29422b51822
 
  <img src="./images/websitelink.png" width="70%">
 
-
 5. You can also see the Port in the **PORTS** tab, next to the terminal tab.
+ <img src="./images/Screenshot 2024-06-19 105614.png">
 
 6. You can then access your website by adding an index.html towards the end of your url link, like the one below. 
 
  <img src="./images/helloworldweb.png" width="70%">
+ <img src="images/image.png">
 
 ***Questions:***
 
 1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
 ```
-@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec -it priceless_aryabhata /bin/bash
-root@86fde954b93b:/usr/local/apache2# cd /usr/local/apache2/htdocs/
-root@86fde954b93b:/usr/local/apache2/htdocs# ls -l
-total 4
--rw-rw-rw- 1 1000 1000 7 Jun 18 20:31 index.html
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec -it sweet_banach /bin/bash
+root@fc6090cf5ec8:/usr/local/apache2# cd htdocs
+root@fc6090cf5ec8:/usr/local/apache2/htdocs# ls -l
+total 1584
+-rw-rw-rw- 1 1000 1000 1558864 Jun 19 02:34 L4D.png
+-rw-rw-rw- 1 1000 1000     421 Jun 19 03:05 index.html
+-rw-rw-rw- 1 1000 1000   57021 Jun 19 02:48 valorant-raze-killjoy.jpg
 ```
 Both user and group has read and write but no execute permission for this regular file. The User ID that owns the folder is 1000 and Group ID that owns the folder is 1000.
 
