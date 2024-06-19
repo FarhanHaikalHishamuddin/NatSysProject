@@ -514,7 +514,7 @@ Error response from daemon: No such container: practical_fermi
 ```
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __No, because when the container is deleted, the data inside also will be dissapeared.__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** __No, because when the container is deleted, the data inside also will be dissapeared__.
 2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Yes__.
 
 ## Running your own container with persistent storage
