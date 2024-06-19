@@ -621,6 +621,11 @@ Both user and group has read and write but no execute permission for this regula
 docker network create bluenet
 docker network create rednet`
 
+@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network create bluenet
+Error response from daemon: network with name bluenet already exists
+@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network create rednet
+b2844fa3964f59af9abace036efca054cb783aad22fc93e4eefdb0d66d3cef4f
+
 ## STEP 2: (automatically running)
 ## Create (1) Container in background called "c1" running busybox image ##
 docker run -itd --net bluenet --name c1 busybox sh
@@ -628,11 +633,21 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __BusyBox is a software suite that combines many common Unix/Linux utilities into a single small executable, often used in environments with limited resources. The --name command switch in Docker assigns a specific name to a container, making it easier to manage and reference.__.
 2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
+   ![INSPECT](https://github.com/FarhanHaikalHishamuddin/NatSysProject/assets/134907351/2807f429-054f-4f05-845f-1cb8580484f1)
+
 3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
+Gateway of bluenet: 172.18.0.1
+Gateway of rednet: Not applicable
+
 4. What is the network address for the running container c1 and c2.
+IP address of c1 on bluenet: 172.18.0.2
+IP address of c2 on rednet: Not applicable
+
 5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
+@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker exec c1 ping c2
+ping: bad address 'c2'
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
@@ -642,6 +657,12 @@ docker network connect bridgenet c1
 docker network connect bridgenet c2
 docker exec c1 ping c2
 ```
+@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network create bridgenet
+6b486fd9f6ccb09cd44a4edfd41d5ab71b9eec486079942c7c985308759d4708
+@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network connect bridgenet c1
+@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker network connect bridgenet c2
+@xharisirfan ➜ /workspaces/NatSysProject (main) $ docker exec c1 ping c2
+ping: bad address 'c2'
 
 ## What to submit
 
